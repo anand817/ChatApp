@@ -15,6 +15,10 @@ class LandindPage extends StatelessWidget {
               MaterialPageRoute(builder: (context) => HomePage()),
             );
           },
+          child: Text(
+            'Start Chat',
+            style: TextStyle(color: Colors.white),
+          ),
         ),
       ),
     );
